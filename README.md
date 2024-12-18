@@ -5,6 +5,12 @@ Ini adalah dokumentasi API untuk mengelola tugas dan otentifikasi pengguna mengg
 - [Instalasi](#instalasi)
 - [Menjalankan API](#menjalankan-api)
 - [Cara Penggunaan di Postman](#cara-penggunaan-di-postman)
+  - [Mendaftar](#1-mendaftar-pengguna-baru)
+  - [Login](#2-login-pengguna)
+  - [Menambah Tugas](#3-menambahkan-tugas)
+  - [Melihat Tugas](#4-melihat-daftar-tugas)
+  - [Memperbarui Tugas](#5-memperbarui-tugas)
+  - [Menghapus Tugas](#6-menghapus-tugas)
 
 
 ## Instalasi
@@ -113,7 +119,7 @@ Coba API ini menggunakan aplikasi Postman
     }
     ```
 
-    ### 4. **Mengambil Daftar Tugas**
+    ### 4. **Melihat Daftar Tugas**
 
 - Pilih metode **GET** dan masukkan URL `http://127.0.0.1:5000/tugas`.
 - Di tab **Authorization**, pilih **Bearer Token** dan masukkan token JWT yang Anda terima dari login.
@@ -131,7 +137,7 @@ Coba API ini menggunakan aplikasi Postman
     ]
     ```
 
-### 5. **Memperbarui Tugas (PUT /tugas/{id})**
+### 5. **Memperbarui Tugas**
 
 - Pilih metode **PUT** dan masukkan URL `http://127.0.0.1:5000/tugas/{id}` (Ganti `{id}` dengan ID tugas yang ingin diperbarui).
 - Di tab **Body**, pilih **raw** dan pilih **JSON**.
@@ -159,7 +165,7 @@ Coba API ini menggunakan aplikasi Postman
     }
     ```
 
-### 6. **Menghapus Tugas (DELETE /tugas/{id})**
+### 6. **Menghapus Tugas**
 
 - Pilih metode **DELETE** dan masukkan URL `http://127.0.0.1:5000/tugas/{id}` (Gantilah `{id}` dengan ID tugas yang ingin dihapus).
 - Di tab **Authorization**, pilih **Bearer Token** dan masukkan token JWT.
