@@ -101,7 +101,6 @@ Coba API ini menggunakan aplikasi Postman
 - Pada headers tambahkan key "Authorization" dengan Value Bearer <token>
 - Pilih metode **POST** dan masukkan URL `http://127.0.0.1:5000/tugas`.
 - Di tab **Body**, pilih **raw** dan pilih **JSON**.
-- 
 - Masukkan data tugas yang ingin ditambahkan:
     ```json
     {
